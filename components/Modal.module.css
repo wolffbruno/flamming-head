@@ -1,0 +1,23 @@
+.backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    animation-name: appear;
+    animation-duration: .1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @apply w-full h-screen grid place-items-center;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
