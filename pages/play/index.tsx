@@ -67,7 +67,7 @@ export default function Play() {
 
     }, []);
 
-    const handleAnwser = (alternative, player: number) => {
+    const handleAnwser = (alternative: number, player: number) => {
         if (!waiting && !answered) {
             setAnswered(true);
 

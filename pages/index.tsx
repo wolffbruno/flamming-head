@@ -6,7 +6,7 @@ import { useContext } from 'react'
 import styles from '../styles/Home.module.css'
 import Modal from '../components/Modal';
 import { GlobalContext, globalContext } from './_app'
-
+/* fasd */
 const Home: NextPage = () => {
   const ctx = useContext(globalContext);
   const router = useRouter();
