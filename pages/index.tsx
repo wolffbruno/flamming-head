@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 
             <button onClick={() => handlePlay()} className="flex gap-x-4 justify-center items-center rounded-sm transition-all bg-gradient-to-tr from-yellow-600 text-black to-yellow-500 hover:bg-yellow-600 py-4 px-8 text-xl">
               Iniciar
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
 </svg>
             </button>

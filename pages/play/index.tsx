@@ -160,7 +160,7 @@ export default function Play() {
                         <div className={`${style.erlenmeyer} ${purple && '!bg-purple-400'}`}>
                             <div className={style.liquid} style={{ height: 50 + currentVolum }}></div>
                         </div>
-                        <button onClick={() => drop()} className="overflow-hidden grid place-items-center transition-colors px-8 bottom-20 py-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-800 rounded-lg"><span class="relative flex gap-x-4 justify-center items-center">Despejar
+                        <button onClick={() => drop()} className="overflow-hidden grid place-items-center transition-colors px-8 bottom-20 py-4 bg-yellow-400 hover:bg-yellow-500 text-yellow-800 rounded-lg"><span className="relative flex gap-x-4 justify-center items-center">Despejar
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
 </svg></span></button>
