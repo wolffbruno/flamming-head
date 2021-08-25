@@ -57,7 +57,7 @@ export default function Play() {
             init();
         }
 
-        setEndVolum(1 + (10 * Math.floor(Math.random() * 3)))
+        setEndVolum(30 + (10 * Math.floor(Math.random() * 3)))
 
         return () => {
             clearTimeout(time as NodeJS.Timeout);
